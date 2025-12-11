@@ -16,8 +16,9 @@ What it does:
 - Auto-activates `~/.venvs/mlx-lm` if it exists.
 - Prompts for temperature, max tokens, and your prompt.
 - Reports clock time when generation finishes.
+- Outputs inference / answer to your prompt (and quick!)
 
-## Customize the script
+## Customize the script (Advanced)
 - To change the menu options, edit the `MODEL_DIR` entries near the top of `mlx-switch-bench.sh`.
 - If your models live somewhere else, set `MLX_MODELS_DIR=/path/to/models` before running the script or choose option `c` and paste the path.
 - Tweak `DEFAULT_TEMP` and `DEFAULT_MAX_TOKENS` for each case if you want different defaults. (Temp = Accuracy), (Tokens = Length)
@@ -38,7 +39,7 @@ mlx_lm.generate \
   --model "$MODEL" \
   --temp 0.7 \
   --max-tokens 256 \
-  --prompt "Put your prompt here!."
+  --prompt "Put your prompt here!"
 ```
 
 Swap `MODEL` for any folder you downloaded.
