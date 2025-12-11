@@ -6,12 +6,12 @@
 - Each model sits in its own subfolder
 - Folder names below match the helper script menu so you can pick them easily.
 
-## Recommended starter models
+## Recommended starter models bundled in the script
 - `Llama-3.2-3B-Instruct-4bit` — balanced quality and size
 - `SmolLM-360M-4bit` — tiny and very fast
 - `OpenELM-1_1B-Instruct-8bit` — Apple’s small model
 
-The helper script can auto-download these into `models/` if they’re missing. But if you prefer manual pulls:
+The helper script can auto-download these into `models/` if they’re missing. I would suggest running the script, and downloading all three, then restarting. But if you prefer manual pulls, not using the script:
 
 ## Download commands (manual)
 Run while online from the repo root (so `models/` is created in the project).
