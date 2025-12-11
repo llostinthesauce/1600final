@@ -1,0 +1,13 @@
+# Python virtual environments
+.venv/
+.venvs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local MLX model storage
+models/
+
+# macOS metadata
+.DS_Store
