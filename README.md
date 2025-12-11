@@ -1,6 +1,8 @@
 # Running MLX Models on Mac Offline
 **Author:** llostinthesauce  
+
 **Audience:** Curious Apple Silicon users (any age) who want to try local LLMs. Here I assume mild comfort with file architeture, Python, and the bash shell.
+
 **Purpose & Summary:** Install `mlx-lm`, install demo models (Llama 3.2, SmolLM, and Apple’s OpenELM), and run them fully offline with a tiny helper script. (or manually)
 
 ### Why run MLX locally?
