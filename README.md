@@ -22,9 +22,9 @@ For more reading:
 Jump to: [Setup](setup.md) · [Download models](models.md) · [Run & script](run-and-script.md)
 
 ## What you’ll learn
-- Install the `mlx-lm` Python package
-- Download small MLX-ready chat models (Llama 3.2, SmolLM, OpenELM).
-- Run chat prompts offline via one shell script or a single command.
+- How to install the `mlx-lm` Python package
+- How to download MLX-ready chat models (Llama 3.2, SmolLM, OpenELM).
+- How to run chat prompts (offline) via one shell script or a single command.
 
 ## Quickstart (5–10 minutes)
 1) Follow **[Setup](setup.md)** to install Python + `mlx-lm`.  
