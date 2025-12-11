@@ -2,7 +2,7 @@
 [← Home](README.md) | [Next → Download models](models.md)
 
 ## Requirements
-- Apple Silicon Mac (M1, M2, M3, M4) with macOS 14+.
+- Apple Silicon Mac (M1, M2, M3, M4, M5+) with macOS 14+.
 - 10+ GB free disk space for a couple of small models.
 - Python 3.10+ (3.11 recommended) (mlx-lm is a Python package)
 - Internet access once to install packages and download models.
