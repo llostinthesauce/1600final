@@ -17,8 +17,7 @@ Running LLMs offline and efficently is a lovely way to protect user privacy, and
 A simple framework like this is a proof of concept, and could be scaled based on hardware, and also be easily expanded to use an OpenAI style API endpoint to run a local AI server.
 
 For more reading:
-- Official MLX docs: https://apple.github.io/mlx/
-- MLX examples: https://github.com/ml-explore
+- Official MLX docs & examples: https://github.com/ml-explore
 
 Jump to: [Setup](setup.md) · [Download models](models.md) · [Run & script](run-and-script.md)
 
