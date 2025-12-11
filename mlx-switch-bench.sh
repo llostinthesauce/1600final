@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# created from mlx-lm docs, unix bash scripting class, and knowledge about local llms from my own app development and capstone project
+
 # Base directory for models; defaults to a local ./models next to this script.
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BASE_DIR="${MLX_MODELS_DIR:-$SCRIPT_DIR/models}"
